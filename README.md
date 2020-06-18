@@ -8,9 +8,9 @@ Attemps to solve the question:
 > For example, given `[10, 15, 3, 7]` and `k` of `17`, return `true` since `10 + 7` is `17`.    
 
 - ### Movezeros.py    
-Attemps to solve the question:
+Attemps to solve the question:    
 > Given a list, write a function to move all 0's to the end of the list while maintaining the relative order    
-> of the non-zero elements.    
-For example:
-> Input: [0, 1, 0, 3, 12]    
-> Output: [1, 3, 12, 0, 0]    
+> of the non-zero elements.      
+For example:    
+> Input: `[0, 1, 0, 3, 12]`    
+> Output: `[1, 3, 12, 0, 0]`     
