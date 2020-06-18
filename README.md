@@ -14,3 +14,13 @@ Attemps to solve the question:
 For example:    
 > Input: `[0, 1, 0, 3, 12]`    
 > Output: `[1, 3, 12, 0, 0]`     
+
+- ### Listproduct.py    
+Attemps to solve the question:    
+> Given an array of integers, return a new array such that each element at index i of the new array is the  
+> product of all the numbers in the original array except the one at i.   
+For example:    
+> Input: `[1, 2, 3, 4, 5]`    
+> Output: `[120, 60, 40, 30, 24]`    
+> Input: `[3, 2, 1]`    
+> Output: `[2, 3, 6]`    
