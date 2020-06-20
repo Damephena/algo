@@ -14,7 +14,7 @@ def lowest_positive(arr):
     '''Set() to remove duplicate and reduce memory usage.'''
     a_set = sorted(set(arr))
     new_arr = [index for index, _ in enumerate(a_set, 1) if index not in a_set][0]
-    
+
     return print(new_arr)
 
 lowest_positive(MY_LIST)
