@@ -10,17 +10,13 @@ MY_LIST = [3, 4, -1, 1]
 # returns 3
 ARR = [1, 2, 0]
 
-def low(arr):
-    '''Using a counter to loop. '''
-    a_set, count = sorted(set(arr)), 1
-    new_arr = list()
+def lowest_positive(arr):
+    '''Set() to remove duplicate and reduce memory usage.'''
+    a_set = sorted(set(arr))
+    new_arr = [index for index, _ in enumerate(a_set, 1) if index not in a_set][0]
+    
+    return print(new_arr)
 
-    for _ in a_set:
-        if count not in a_set:
-            new_arr.append(count)
-        count += 1
-    return print(new_arr[0])
-
-low(MY_LIST)
-low(ARR)
-low([0, -1, -3, -3, -3, -1])
+lowest_positive(MY_LIST)
+lowest_positive(ARR)
+lowest_positive([0, -1, -3, -3, -3, -1])
