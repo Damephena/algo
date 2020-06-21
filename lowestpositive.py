@@ -11,12 +11,20 @@ MY_LIST = [3, 4, -1, 1]
 ARR = [1, 2, 0]
 
 def lowest_positive(arr):
-    '''Set() to remove duplicate and reduce memory usage.'''
+    '''Using a list. Set() to remove duplicate and reduce memory usage.'''
     a_set = sorted(set(arr))
     new_arr = [index for index, _ in enumerate(a_set, 1) if index not in a_set][0]
 
     return print(new_arr)
 
+def lowest_positive2(arr):
+    '''Returning a value without using list'''
+    a_set = sorted(set(arr))
+    for index, _ in enumerate(a_set, 1):
+        if index not in a_set:
+            return print(index)
+
 lowest_positive(MY_LIST)
 lowest_positive(ARR)
 lowest_positive([0, -1, -3, -3, -3, -1])
+lowest_positive2(ARR)

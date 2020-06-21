@@ -24,3 +24,13 @@ For example:
 > Output: `[120, 60, 40, 30, 24]`    
 > Input: `[3, 2, 1]`    
 > Output: `[2, 3, 6]`    
+
+- ### Lowestpositive.py    
+Attemps to solve the question:    
+> Given an array of integers, find the first missing positive integer in linear time and constant space.    
+> In other words, find the lowest positive integer that does not exist in the array.   
+For example:    
+> Input: `[3, 4, -1, 1]`    
+> Output: `2`    
+> Input: `[1, 2, 0]`    
+> Output: `3`    
