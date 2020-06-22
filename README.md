@@ -34,3 +34,17 @@ For example:
 > Output: `2`    
 > Input: `[1, 2, 0]`    
 > Output: `3`    
+
+- ### Pairconstruct.py    
+Attemps to solve the question:    
+> `cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair.    
+> Given this implementation of `cons`:     
+    def cons(a, b):     
+        def pair(f):     
+           return f(a, b)    
+        return pair     
+For example:    
+> Input: `car(cons(3, 4))`    
+> Output: `3`    
+> Input: `cdr(cons(3, 4))`    
+> Output: `4`    
